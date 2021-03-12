@@ -1,0 +1,27 @@
+/* svg sidebar */
+svg #line path {
+    stroke: white;
+    stroke-width: 1.5px;
+}
+/* svg sidebar end */
+
+/* svg logo */
+.logo svg path {
+    stroke: rgb(255, 255, 255);
+    stroke-width: 1.5px;
+}
+/* svg logo end */
+
+/* svg bg */
+header .lineBg svg {
+    min-width: 100%;
+    transform: scale(1.5);
+    position: absolute;
+    z-index: 0;
+}
+
+header .lineBg svg path {
+    stroke-width: 1px;
+    stroke:rgb(255, 255, 255);
+}
+/* svg bg end */
